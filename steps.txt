@@ -1,0 +1,9 @@
+[in macbook terminal]
+python3 -m venv venv
+source venv/bin/activate
+pip3 install mkdocs-material
+
+[in vscode terminal]
+mkdocs new .
+mkdocs serve
+
